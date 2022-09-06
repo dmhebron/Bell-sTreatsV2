@@ -1,17 +1,16 @@
       /* Font and background color applied to the entire website */
-html { background-color: transparent;
+html { background-color: #06F0A6;
+  color: black;
 font-family: fantasy;}
         /* h1 tag Bell's Treats */
 .bell {
-  color: purple;
-  background-color: transparent;
+    background-color: #06F0A6;
   text-align: left;
   text-indent: 575px; 
     }
 
         /* Styling of all H3 tags */
 h3{
-color: purple;
   text-align: center;
   text-transform: uppercase;
   font-size: 30px;
@@ -19,24 +18,22 @@ color: purple;
 
         /* styling of all h1 tags */
 h1{
-  color: black;
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
-  font-family: cursive;
 }
 
               /* Hero image section  */
 .hero-image {background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pictures/tray.jpg");}
 .hero-text {text-align: center;
          background-image: url("pictures/tray.jpg");  
-             height: 250px;
+             height: 400px;
              background-position: center;
              background-repeat: no-repeat;
              background-size: cover;
              position: relative;
 }
-        /* Nav bar styling */
+           /* Nav bar styling */
 
 #nav ul {list-style-type: none;
   /*takes out the bullet points  */
@@ -48,10 +45,10 @@ h1{
    padding: 5px;
    float: right; 
 /*adds extra space between each list item */
-  background-color: transparent;}
+  background-color: #06F0A6;}
  
 a:hover {
-  color: black;
+  color: whitesmoke;
   background-color: transparent;
   text-decoration: underline dotted;
 }
@@ -59,15 +56,12 @@ a:hover {
           /* styling of order button */
 .order {
 background-color: transparent;
-  color: purple;
-    text-align: center;
-
-}
+      text-align: center;
+      }
 
           /* About us section on home page */
 .about {
   text-align: center;
-  color: purple;
   text-decoration: none;
 }
 .pictures img{
@@ -119,16 +113,25 @@ text-align: center;
 
 
 /* Contact page styling */
-
-input[type=text] {
-  width: 100%;
- padding: 12px 20px;
-/*   margin: 8px 0; */
-  box-sizing: border-box;
-  }
-form {
-  display: inline-block;
+#form {
+align-items: center;
+margin-left: 600px;
 }
+
+form .contact {
+width: 50%;
+  box-sizing: border-box;
+ }
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+    }
+  
+  .contactus {
+    text-align: center;
+    width: fit-content;
+  }
+
 /* footer */
 .row2 { 
   list-style-type: none;
