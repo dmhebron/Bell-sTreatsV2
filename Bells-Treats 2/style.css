@@ -41,7 +41,7 @@ h1{
   top: 0;
   width: 90%;
   /* fixes the nav bar to the top of the page */}
-#nav ul li {display: inline;
+#nav ul li {
    padding: 5px;
    float: right; 
 /*adds extra space between each list item */
@@ -70,6 +70,7 @@ background-color: transparent;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+  height: fit-content;
 /*puts a rounded border around the image and places it in the center */
 }
 
@@ -118,12 +119,13 @@ text-align: center;
 /* Contact page styling */
 #form {
 align-items: center;
-margin-left: 600px;
+margin-left: 200px;
+margin-right: 300px;
 }
 
 form .contact {
 width: 50%;
-  box-sizing: border-box;
+  
  }
 input[type=text] {
   width: 50%;
@@ -132,7 +134,7 @@ input[type=text] {
   
   .contactus {
     text-align: center;
-    width: fit-content;
+    ;
   }
 
 /* footer styling*/
